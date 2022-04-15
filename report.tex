@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage[unicode]{hyperref}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{indentfirst}
+\renewcommand{\baselinestretch}{1.25}
+\setlength{\parskip}{1em}
+\title{Báo cáo Hand Tracking}
+\author{Lê Văn Đông \texttt{19127363} \and Trần Đông Ba \texttt{19127334} \and Đặng Nguyễn Minh Quân \texttt{19127523}}
+\date{\today}
+\usepackage{scrextend}
+\changefontsizes{13pt}
+\graphicspath{{./img}{./logo}}
+
+
+
+\begin{document}
+
+
+    \input{titlepage.tex}
+    % \maketitle
+
+
+
+    \tableofcontents
+
+    \newpage
+
+    \section{Bảng phân công công việc}
+    \label{sec:phancong}
+
+    Nhóm chia công việc đồng đều cho từng thành viên. Bên dưới là mô tả sơ bộ về công việc của từng thành viên.
+
+
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{p{0.3\linewidth}|p{0.5\linewidth}|p{0.08\linewidth}} 
+        Tên                   & Công việc                                                                                  & Mức~độ hoàn~thành \\\hline
+        Lê Văn Đông           & Soạn báo cáo, tìm hiểu phần ứng dụng của Mediapipe, tìm hiểu source code demo              & 100\%             \\\hline
+        Trần Đông Ba          & Tìm hiểu phần Hand Landmark model và dataset. Làm powerpoint và tìm hiểu source code demo. & 100\%             \\\hline
+        Đặng Nguyễn Minh Quân & Tìm hiểu phần Blaze Palm và cách thiết lập Pipeline. Làm powerpoint.                       & 100\%            
+        \end{tabular}
+        \caption{Bảng phân công công việc}
+    \end{table}
+
+
+
+
+\end{document}
